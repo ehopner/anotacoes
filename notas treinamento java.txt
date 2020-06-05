@@ -1,0 +1,141 @@
+https://cmder.net/
+notas treinamento java
+java 8 
+robusto para processamento em paralelo;
+tratamento de erros e autorecuperação;
+Java SE / EE (enterprise edition) / ME (micro edition embedded) / oracle java se embedded
+
+JDK: DESENVOLVIMENTO
+JRE: Java Runtime Environment - execução;
+
+convenção: primeiras letras das palavras em maiúsculo para arquivos;
+nome da classe sempre o nome do arquivo
+
+string sempre declarar com aspas;
+float é necessário declarar com f;
+variáveis com tipos iniciando como minúscula são primitivas;
+variáveis complexas (string)
+scanner variavel complexa
+declarar variáveis como camel case
+sysout converte pra texto - concatenar utilizando o operador +
+conversão dinâmica = cast (int) variável
+operador resto %
+final antes da declaração da variável a torna imutável;
+printf: print com formatação - dentro do "" colocar %10.2f; \n quebra de linha - 10 é a base decimal. 2 são as casas
+
+switch (variável) {
+case valor:
+	break;
+case valor2:
+default:
+}
+
+gitkraken boards
+
+cmd git
+
+git hub - modelos cloud
+git lab - modelos cloud
+git bucket - mair cooporativo - on premises - git init
+
+git init;
+git add; (add . sobe tudo do diretorio);
+git commit -m "adicionado arquivo inex ao nosso site" 
+	comando -m adiciona a string seguinte
+git log
+git status
+git branch feature/lista-produtos
+git merge
+ir para branch> git checkout nomedabranch
+criar documento de texto;
+alterar para .html
+incluir no html <html> <body> <h1> titulo </h1> </body> </html>
+
+fork > clone > branch > alterar > add > commit > git push --set-upstream <remote> <branch> > pull request
+orientado a objetos - paradigma de programação
+void indicada que não há retorno na classe;
+private utilizado pra "proteger" variáveis - só pode ser chamada dentro da própria classe
+
+
+
+mesmo que eu nao utilize o setnome, é bom declarar esse metodo de acesso?
+
+   v2 = v02 + 2aD
+
+
+
+    //private boolean freiando;
+    //private double desaceleracao;
+
+    private double velocidadeFinal;
+    private double deslocamento;
+
+    private double anguloDirecao;
+
+Grupo 3
+
+Eduardo Hopner
+
+Luciana Gonçalves
+
+Luiz Fernando Cupido
+
+Marcelo dias
+
+Luiz Guilherme
+
+Matheus Gome
+
+nao repetir criação de objetos;
+scanner nao é uma boa pratica;
+
+ArrayList<ContaBancaria> listaContas = new ArrayList <ContaBancaria>();
+método add (objeto);
+na arraylist, get(0) retorna o objeto armazenado na posicao 0
+size() retorna o tamanho da lista
+num objeto, ações que podem ser executadas são métodos;
+
+uma classe pode estender outra - herança;
+sintaxe: public class Cachorro extends Mamifero implements IVoar {}
+java override;
+
+((ClasseDaCriaçãodoObjeto)objetofilho)
+
+public interface IVoar {}
+constantes criadas dentro de classes devem ser em maiusculas;
+kubernets - gerenciador de dockers (containers)
+puppet: subida de maquina;
+s3: arquivos estaticos
+cucumber - selenium
+jenkins (esteira) - pipeline - tdd - bdd
+
+chmod - permissionamento de arquivos
+mkdir
+explorer . (abre no explorer o diretorio)
+type > nomedoarquivo.extensao
+https://devhints.io/bash
+nodejs - expressjs - servidor web
+cucumber - behaviour test
+jazmine suite de testes do nodejs
+jmeter
+heroku;
+jenkins -0 ac1a746d6f09499c861201057f615657
+ssh-keygen
+crontab - sintaxe pra schedular;
+
+
+cd C:\Users\987270434\TestedoJenkins\NovaTentativa\meuprojeto
+heroku git:remote -a testejenkinsdev
+git add .
+git commit -am "deploy em dev"
+git push heroku master
+
+
+http://localhost:8080
+
+scp - mandar dados pro servidor
+new relic
+
+vuejs
+bootstrap
+spring boot
